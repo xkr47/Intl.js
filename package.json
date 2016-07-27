@@ -10,6 +10,11 @@
     "./locale-data/complete": false,
     "./locale-data/complete.js": false
   },
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  },
   "devDependencies": {
     "async": "^0.9.0",
     "babel-cli": "^6.2.0",
