@@ -1,5 +1,5 @@
 // Expose `IntlPolyfill` as global to add locale data into runtime later on.
-global.IntlPolyfill = require('./src/core.js');
+global.IntlPolyfill = require('./src/core.js').default;
 
 // Require all locale data for `Intl`. This module will be
 // ignored when bundling for the browser with Browserify/Webpack.
